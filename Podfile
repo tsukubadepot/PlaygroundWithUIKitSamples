@@ -7,4 +7,5 @@ target 'PlaygroundWithUIKitSamples' do
 
   # Pods for PlaygroundWithUIKitSamples
   pod 'Alamofire'
+  pod 'PKHUD'
 end
