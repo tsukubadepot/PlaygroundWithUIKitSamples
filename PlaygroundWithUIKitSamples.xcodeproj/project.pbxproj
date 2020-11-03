@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B897E02FAF15018D7BF7EA0 /* Pods_PlaygroundWithUIKitSamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8044F189B448A20C868A8830 /* Pods_PlaygroundWithUIKitSamples.framework */; };
 		BF87ACE82551078100A39FAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF87ACE72551078100A39FAF /* AppDelegate.swift */; };
 		BF87ACEA2551078100A39FAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF87ACE92551078100A39FAF /* SceneDelegate.swift */; };
 		BF87ACEC2551078100A39FAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF87ACEB2551078100A39FAF /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8044F189B448A20C868A8830 /* Pods_PlaygroundWithUIKitSamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlaygroundWithUIKitSamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F3F4B4B059CD7A41AD75DFB /* Pods-PlaygroundWithUIKitSamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaygroundWithUIKitSamples.debug.xcconfig"; path = "Target Support Files/Pods-PlaygroundWithUIKitSamples/Pods-PlaygroundWithUIKitSamples.debug.xcconfig"; sourceTree = "<group>"; };
 		BF87ACE42551078100A39FAF /* PlaygroundWithUIKitSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaygroundWithUIKitSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF87ACE72551078100A39FAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF87ACE92551078100A39FAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,10 @@
 		BF87ACF02551078200A39FAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF87ACF32551078200A39FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF87ACF52551078300A39FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF87AD04255109DD00A39FAF /* AlamofireTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AlamofireTest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BF87AD0625510A1E00A39FAF /* InstantiateNewViewController.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = InstantiateNewViewController.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BF87AD0825510A7D00A39FAF /* UITableViewWithButton.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UITableViewWithButton.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E8DFA6FB9806EEA3022FF4B2 /* Pods-PlaygroundWithUIKitSamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaygroundWithUIKitSamples.release.xcconfig"; path = "Target Support Files/Pods-PlaygroundWithUIKitSamples/Pods-PlaygroundWithUIKitSamples.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B897E02FAF15018D7BF7EA0 /* Pods_PlaygroundWithUIKitSamples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +50,8 @@
 			children = (
 				BF87ACE62551078100A39FAF /* PlaygroundWithUIKitSamples */,
 				BF87ACE52551078100A39FAF /* Products */,
+				C047FD1D96C8E88561DC8A16 /* Pods */,
+				E2F129499FEB69778601CC01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +73,28 @@
 				BF87ACF02551078200A39FAF /* Assets.xcassets */,
 				BF87ACF22551078200A39FAF /* LaunchScreen.storyboard */,
 				BF87ACF52551078300A39FAF /* Info.plist */,
+				BF87AD04255109DD00A39FAF /* AlamofireTest.playground */,
+				BF87AD0625510A1E00A39FAF /* InstantiateNewViewController.playground */,
+				BF87AD0825510A7D00A39FAF /* UITableViewWithButton.playground */,
 			);
 			path = PlaygroundWithUIKitSamples;
+			sourceTree = "<group>";
+		};
+		C047FD1D96C8E88561DC8A16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F3F4B4B059CD7A41AD75DFB /* Pods-PlaygroundWithUIKitSamples.debug.xcconfig */,
+				E8DFA6FB9806EEA3022FF4B2 /* Pods-PlaygroundWithUIKitSamples.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2F129499FEB69778601CC01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8044F189B448A20C868A8830 /* Pods_PlaygroundWithUIKitSamples.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF87ACF82551078300A39FAF /* Build configuration list for PBXNativeTarget "PlaygroundWithUIKitSamples" */;
 			buildPhases = (
+				4DA4B508DD3243D99F72E018 /* [CP] Check Pods Manifest.lock */,
 				BF87ACE02551078100A39FAF /* Sources */,
 				BF87ACE12551078100A39FAF /* Frameworks */,
 				BF87ACE22551078100A39FAF /* Resources */,
+				4C39A499878B22EA505CEF7A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +163,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C39A499878B22EA505CEF7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlaygroundWithUIKitSamples/Pods-PlaygroundWithUIKitSamples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlaygroundWithUIKitSamples/Pods-PlaygroundWithUIKitSamples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlaygroundWithUIKitSamples/Pods-PlaygroundWithUIKitSamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DA4B508DD3243D99F72E018 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlaygroundWithUIKitSamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF87ACE02551078100A39FAF /* Sources */ = {
@@ -283,6 +357,7 @@
 		};
 		BF87ACF92551078300A39FAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F3F4B4B059CD7A41AD75DFB /* Pods-PlaygroundWithUIKitSamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +377,7 @@
 		};
 		BF87ACFA2551078300A39FAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8DFA6FB9806EEA3022FF4B2 /* Pods-PlaygroundWithUIKitSamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
